@@ -13,6 +13,6 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(router);
 
-app.get("/", (req, res) => res.json({uepa: "Ui"}))
+app.get("/", (req, res) => res.json({ message: "Manda um POST para a rota: 'http://localhost/download/mp3'", estruraPOST: { video_url: "", artist: "", title: "" } }))
 
 app.listen(config.PORT, () => console.log('A aplicação está rodando no url: ', config.HOST_URL));
