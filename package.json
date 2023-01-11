@@ -1,0 +1,28 @@
+{
+  "name": "coelhao-mp3",
+  "version": "1.0.0",
+  "description": "Consumindo API para download de músicas e vídeos",
+  "main": "index.ts",
+  "scripts": {
+    "start": "nodemon index.ts",
+    "dev": "nodemon index.ts"
+  },
+  "author": "Gustavo Coelho",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cors": "^2.8.13",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.5.1",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "express": "^4.18.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  }
+}

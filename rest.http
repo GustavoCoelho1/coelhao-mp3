@@ -1,0 +1,8 @@
+POST http://localhost:4000/download/mp3
+Content-Type: application/json
+
+{
+    "artist": "Vários artista",
+    "title": "playlist",
+    "video_id": "NNd_ufPG3x4&list=PL3-sRm8xAzY_Rr7jgjrVCEy1JnNPuVp0W"
+}
